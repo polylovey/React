@@ -1,0 +1,39 @@
+.HeaderContent {
+  height: 75px;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-content: center;*/
+}
+/*左边*/
+.HeaderLeft {
+  width: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all .3s ease-out;
+  /*background-color: blue;*/
+}
+.HeaderLeft:hover {
+  background-color: #f9f9fc;
+  color: #1890ff;
+}
+.HeaderMenuIcon {
+  font-size: 18px;
+  /*transition: color 0.3s;*/
+}
+/*右边*/
+.HeaderRight {
+  flex: 1;
+  /*background-color: red;*/
+}
+
+/*右边模块*/
+.H_R_list {
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
